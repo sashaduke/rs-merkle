@@ -1,5 +1,6 @@
 use crate::Hasher;
 use sha2::{digest::FixedOutput, Digest, Sha256};
+use alloc::vec::Vec;
 
 /// Implementation of the [`Hasher`] trait for Bitcoin trees and proofs.
 ///
